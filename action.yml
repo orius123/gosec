@@ -10,7 +10,7 @@ inputs:
 
 runs:
     using: 'docker'
-    image: 'docker://orius123/securego:v2.2.0-29'
+    image: 'docker://orius123/securego:v2.2.0-30'
     args:
       - ${{ inputs.args }}
 
